@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Bank Management System</title>
+<style>
+
+.topheader{
+display:inline-block;
+position:fixed;
+background-color:#181818;
+height:50px;
+top: 0;
+left:0;
+right:0;
+padding-top:2px;
+padding-right:80px;
+padding-bottom:12px;
+z-index: 9999;
+}
+a.links{
+display:block;
+color:#A9A9A9;
+padding-left:15px;
+text-decoration: none;
+font-size:20px
+
+}
+a.links:hover{
+color:white;
+cursor:pointer;
+}
+.inline{
+display:inline-block;
+text-align:left;
+}
+.bottom{
+position:absolute;
+background-color:#181818;
+height:50px;
+bottom:0;
+left:0;
+right:0;
+padding-top:2px;
+text-align:center;
+}
+.projectname{
+display:inline-block;
+color:#A9A9A9;
+text-align:left;
+padding-right:150px;
+padding-left:150px;
+color:white;
+font-size:25px;
+}
+.tbecomedonor{
+border:1px solid white;
+width:1300px;
+padding-bottom:10px;
+margin-top:0;
+font-size:25px;
+
+}
+.becomedonorhead{
+border:1px solid white;
+border-radius:8px;
+text-align:left;
+background-color:#F0F0F0;
+width:1000px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+font-size:20px;
+}
+.red{
+color:red;
+}
+.mytextbox{
+    width: 300px;
+	height:30px;
+	border-radius:4px;
+	border:1px solid #989898;
+}
+.submitbutton{
+border:1px solid white;
+border-radius:5px;
+width:120px;
+height:50px;
+background-color:#0066FF;
+color:white;
+font-size:20px;
+}
+.topmargin{
+margin-top:60px;
+}
+.searchbloodhead{
+border:1px solid white;
+border-radius:8px;
+background-color:#F0F0F0;
+width:800px;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;
+font-size:20px;
+</style>
+<body>
+<div class="topheader">
+<ul>
+<li class="projectname">BloodBank Management System</li>
+<li class="inline"><a class="links" href="Admin/admin.php" target="_blank">Admin</a></li>
+<li class="inline"><a class="links" href="About.php">About</a></li>
+<li class="inline"><a class="links" href="whybecomeadonor.php">Why Become Donor</a></li>
+<li class="inline"><a class="links" href="becomeadonor.html" >Become a Donor</a></li>
+<li class="inline"><a class="links" href="searchblood.html">Search Blood</a></li>
+<li class="inline"><a class="links" href="contactus.php">Contact Us</a></li>
+</ul>
+</div>
+<div class="topmargin">
+<div style="margin-left:115px">
+<form method="POST" action="searchblood.php" >
+<span  style="font-size:60px;"><b>Search Donor</b></span><br><br>
+<img src="searchdonor.jpg" style="float:right;height:300px;margin-top:20px;margin-right:50px;">
+<div class="searchbloodhead">Home/Search blood</div><br><span style="font-size:20px;">Blood Group</span><span class="red">*</span><br>
+<select class="mytextbox" name="sbloodgrp" id="sbloodgrp">
+		<option value="AB+">AB+</option>
+		<option value="AB-">AB-</option>
+		<option value="A+">A+</option>
+		<option value="A-">A-</option>
+		<option value="B+">B+</option>
+		<option value="B-">B-</option>
+		<option value="O+">O+</option>
+	    <option value="O-">O-</option>
+		</select><br><br>
+<button type="submit" class="submitbutton" name="search_blood">Submit</button>
+</form>
+
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="bottom">
+<p style="color:#A9A9A9;">IWP Project by 17BCB0054,17BCE0502,17BCE0180</p></div>
+</body>
+</html>

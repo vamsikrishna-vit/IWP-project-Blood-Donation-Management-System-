@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Bank Management System</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.topheader{
+display:inline-block;
+position:fixed;
+background-color:#181818;
+height:50px;
+top: 0;
+left:0;
+right:0;
+padding-top:2px;
+padding-right:80px;
+padding-bottom:12px;
+z-index: 9999;
+}
+a.links{
+display:block;
+color:#A9A9A9;
+padding-left:15px;
+text-decoration: none;
+font-size:20px
+
+}
+a.links:hover{
+color:white;
+cursor:pointer;
+}
+.inline{
+display:inline-block;
+text-align:left;
+
+}
+.bottom{
+position:relative;
+background-color:#181818;
+height:50px;
+bottom: 0;
+left:0;
+right:0;
+padding-top:2px;
+text-align:center;
+}
+.projectname{
+display:inline-block;
+color:#A9A9A9;
+text-align:left;
+padding-right:150px;
+padding-left:150px;
+color:white;
+font-size:25px;
+}
+.indeximg{
+ background-image: url("indexpage.jpg");
+  height:55%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+top:20px;
+position:relative;
+border:1px solid #F0F0F0;
+border-radius:5px;
+width:400px;
+padding:0;
+border-spacing:0;
+display:inline-block;
+height:300px;
+}
+.cardhead{
+font-size:20px;
+border:1px solid #F0F0F0;
+background-color:#F0F0F0;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+padding:5px;
+}
+.cardtext{
+text-align:justify;
+font-size:20px;
+}
+.bloodgrps{
+border:1px solid white;
+width:600px;
+text-align:left;
+display:inline-block;
+height:400px;
+font-size:20px;
+}
+.bloodgrpimg{
+float:right;
+margin-right:120px;
+}
+.donorrecipiants{
+top:20px;
+border:1px solid white;
+width:800px;
+text-align:left;
+display:inline-block;
+height:170px;
+font-size:20px;
+}
+.becomedonorlink{
+float:right;
+border:1px solid black;
+border-radius:10px;
+padding-left:80px;
+padding-right:80px;
+padding-top:15px;
+padding-bottom:15px;
+background-color:white;
+margin-top:60px;
+margin-right:80px;
+}
+.becomedonorlink:hover{
+background-color:#C8C8C8;
+}
+
+</style>
+</head>
+<body>
+<div class="topheader">
+<ul>
+<li class="projectname">BloodBank Management System</li>
+<li class="inline"><a class="links" href="Admin/admin.php" target="_blank">Admin</a></li>
+<li class="inline"><a class="links" href="About.php">About</a></li>
+<li class="inline"><a class="links" href="whybecomeadonor.php">Why Become Donor</a></li>
+<li class="inline"><a class="links" href="becomeadonor.html" >Become a Donor</a></li>
+<li class="inline"><a class="links" href="searchblood.html">Search Blood</a></li>
+<li class="inline"><a class="links" href="contactus.php">Contact Us</a></li>
+</ul>
+</div>
+<br>
+<br>
+<br>
+<div class="indeximg"></div>
+<center>
+<table class="card">
+<tr>
+	<th class="cardhead">The need for blood</th>
+</tr>
+<tr>
+	<td class="cardtext">Blood Needs & Blood Supply. Every two seconds someone in the U.S. needs blood. It is essential for surgeries, cancer treatment, chronic illnesses, and traumatic injuries. Whether a patient receives whole blood, red cells, platelets or plasma, this lifesaving care starts with one person making a generous donation.</td>
+</tr>
+</table>
+ &nbsp &nbsp
+<table class="card">
+<tr>
+	<th class="cardhead">Blood Tips</th>
+</tr>
+<tr>
+	<td class="cardtext">
+	<ul>
+	<li>DO eat lean, iron-rich foods.DON'T eat fatty foods.</li><li>DO add vitamin C to your meals.</li><li>DON'T drink alcohol before or after.</li><li>DO drink more water.</li><li>DON'T take aspirin 48 hours before if you're donating platelets.</li><li>DO have a healthy snack after donating.</li>
+	<ul>
+	</td>
+</tr>
+</table>
+&nbsp &nbsp
+<table class="card">
+<tr>
+	<th class="cardhead">Who you could Help</th>
+</tr>
+<tr>
+	<td class="cardtext">Your blood saves lives. Your blood donation is an amazing gift to people who need it in an emergency or for on-going medical treatment. We need over 6,000 people to give blood every day to meet the needs of hospitals and patients. We specifically need new black donors to provide blood donations for black patients with sickle cell disease. They need life-saving blood from black donors, which provides the closest match to their own. Find out how donated blood is used.</td>
+</tr>
+</table>
+
+<br>
+<br>
+<hr>
+
+<div class="bloodgrps">
+<h1 style="font-size:40px">Blood Groups</h1>
+<p>Blood group of any human being will mainly fall in any one of the following groups.</p>
+<ul >
+	<li>A positive or A negative</li>
+	<li>B positive or B negative</li>
+	<li>O positive or O negative</li>
+	<li>AB positive or AB negative</li>
+</ul>
+<p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
+
+</div>
+<img class="bloodgrpimg" src="typesofblood.jpg" height="400" width="450px">
+<hr>
+<div class="donorrecipiants">
+<h1 style="font-size:30px">UNIVERSAL DONORS AND RECIPIENTS</h1>
+<p>The most common blood type is O, followed by type A. Type O individuals are often called "universal donors" since their blood can be transfused into persons with any blood type. Those with type AB blood are called "universal recipients" because they can receive blood of any type.<p>
+</div>
+
+<span>
+<a style="text-decoration:none;" href="becomeadonor.html"><span style="font-size:30px"><span class="becomedonorlink"> Become a donor</span></span></a></button>
+</span>
+
+<div class="bottom">
+<p style="color:#A9A9A9;">IWP Project by 17BCB0054,17BCE0502,17BCE0180</p></div>
+</body>
+</html>
